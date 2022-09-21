@@ -1,0 +1,210 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.navbar {
+  height: 64px;
+  padding: 0 24px;
+}
+
+.header-link {
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+/* ---------END OF NAV---------- */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+}
+
+.flex-left {
+  width: 60%;
+  height: auto;
+  padding: 24px;
+}
+
+.flex-right {
+  width: 40%;
+  padding: 24px;
+}
+
+.hero-shot {
+  width: 100%;
+  height: auto;
+}
+
+.header-info {
+  font-weight: 700;
+  padding-left: 24px;
+  padding-top: 200px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.first-paragraph {
+  font-weight: bold;
+  padding: 24px;
+  letter-spacing: 0.15rem;
+  width: 60%;
+}
+
+.btn {
+  width: 60%;
+  padding: 8px;
+  margin-left: 24px;
+}
+/* -------------END OF HERO SECTION-------------- */
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(250, 248, 248);
+  /* border: 1px solid red; */
+}
+
+.header-info-2 {
+  font-weight: 700;
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 25px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.second-paragraph {
+  font-weight: bold;
+  padding-left: 24px;
+  letter-spacing: 0.15rem;
+  width: 100%;
+}
+
+.signature-name {
+  padding: 50px 0 60px 24px;
+  margin-bottom: 32px;
+}
+
+/* ------------------------------------------ */
+.card {
+  height: auto;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  padding-top: 24px;
+  padding-left: 24px;
+  height: auto;
+}
+
+.img-square-wrapper {
+  width: 35%;
+  height: auto;
+}
+
+.card-in-second {
+  width: 100%;
+  height: auto;
+  padding-bottom: 24px;
+}
+/* ---------------------------------------------  */
+
+.second-header {
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.upper-cards {
+  background-color: lightgray;
+}
+
+.card-deck {
+  /* background-color: azure; */
+  display: flex;
+  padding: 24px 74px;
+}
+
+.card-top-1 {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border: 2px solid black;
+
+  /* justify-content: space-between; */
+  /* margin: 0 auto; */
+}
+
+.card-2 {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border: 2px solid black;
+
+  /* justify-content: space-between; */
+  /* margin: 0 auto; */
+}
+
+.card-img {
+  /* border: 3px solid green; */
+  /* padding: 10px; */
+
+  /* width: 135%; */
+}
+/* -------------------------- */
+.bottom-cards {
+  /* background-color: azure; */
+  display: flex;
+  padding: 24px 74px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: x-large;
+  text-align: left;
+  padding-left: 22px;
+}
+
+.card-subtitle {
+  text-transform: uppercase;
+  color: #4b4a4a;
+  text-align: left;
+  margin: 0;
+  padding-top: 0;
+  /* padding-left: 22px; */
+}
+
+h5,
+.card-text {
+  text-align: left;
+  padding: 16px 22px 20px 22px;
+}
+/* ----------------------------------------- */
+
+.flex-container-2 {
+  background-color: rgb(251, 253, 253);
+}
+.third-header {
+  background-color: rgb(214, 150, 150);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.col-left {
+  display: grid;
+  grid-template-columns: 0% 50%;
+  /* grid-template-rows: 2; */
+}
+
+.video {
+  padding: 40px 40px 20px 70px;
+  margin-left: 80px;
+}
